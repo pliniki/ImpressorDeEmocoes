@@ -45,5 +45,5 @@ Wagner Carmo [Linkedin](#) <br>
 Rafael Silva [Linkedin](#) <br>
 
 - Emotions <br>
-Thamires Pereira [Linkedin](#) <br>
+Thamires Araujo [Linkedin](https://www.linkedin.com/in/thamires-pereira-araujo-271195139/) <br>
 
