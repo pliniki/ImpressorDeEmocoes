@@ -8,6 +8,8 @@ public class Emocoes {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		
+		
 		int dia, otimo = 0, bom = 0, ruim = 0, pessimo = 0, emocao, conversa; 	
 		int feliz = 0, triste = 0, aflito = 0, ansioso = 0, cont = 0;
 		
@@ -24,15 +26,15 @@ public class Emocoes {
 		
 		String conversa2;
 		
-		System.out.println("Agora que já sabemos um pouco mais sobre você, pedimos para que nos indique como está se sentindo hoje e repita esse processo diariamente.");
+		System.out.println("Agora que jÃ¡ sabemos um pouco mais sobre vocÃª, pedimos para que nos indique como estÃ¡ se sentindo hoje e repita esse processo diariamente.");
 		System.out.println();
 		
 		while(cont < 3) {		
-		System.out.println("Escolha a opção de como foi o seu dia:\r\n"
-				+ "[1] Ótimo...Super produtivo\r\n"
-				+ "[2] Bom...Na medida do possível\r\n"
+		System.out.println("Escolha a opÃ§Ã£o de como foi o seu dia:\r\n"
+				+ "[1] Ã“timo...Super produtivo\r\n"
+				+ "[2] Bom...Na medida do possÃ­vel\r\n"
 				+ "[3] Ruim...\r\n"
-				+ "[4] Péssimo... Não poderia ter levantado da cama\r\n"
+				+ "[4] PÃ©ssimo... NÃ£o poderia ter levantado da cama\r\n"
 				+ "");
 		
 		dia = sc.nextInt();
@@ -67,10 +69,10 @@ public class Emocoes {
 				cont++;
 				break;
 		default:
-			System.out.println("Dígito inválido, por favor, digite umas das opções.");
+			System.out.println("DÃ­gito invÃ¡lido, por favor, digite umas das opÃ§Ãµes.");
 		}
 		System.out.println();
-		System.out.println("Qual emoção mais sentiu durante o seu dia:\r\n"
+		System.out.println("Qual emoÃ§Ã£o mais sentiu durante o seu dia:\r\n"
 				+ "[1] Feliz\r\n"
 				+ "[2] Triste\r\n"
 				+ "[3] Aflito\r\n"
@@ -105,35 +107,35 @@ public class Emocoes {
 				ansioso++;	
 				break;
 			default:
-				System.out.println("Dígito inválido, por favor, digite umas das opções.");
+				System.out.println("DÃ­gito invÃ¡lido, por favor, digite umas das opÃ§Ãµes.");
 	}
 		System.out.println();
 		System.out.println("Quer conversar?\r\n"
 				+ "[1] Sim\r\n"
-				+ "[2] Não\r\n"
+				+ "[2] NÃ£o\r\n"
 				+ "");
 		conversa = sc.nextInt();
 		switch(conversa) {
 			case 1: 
 				System.out.println("Estamos aqui para te escutar:");
 				conversa2 = sc.next();
-				System.out.println("Obrigada por nos contatar e compartilhar sua experiência, sentimentos. Suas respostas estão em nossos arquivos para acompanhamento.");
+				System.out.println("Obrigada por nos contatar e compartilhar sua experiÃªncia, sentimentos. Suas respostas estÃ£o em nossos arquivos para acompanhamento.");
 				System.out.println();
-				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no próximo dia o registro de suas emoções. ");
+				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no prÃ³ximo dia o registro de suas emoÃ§Ãµes. ");
 				System.out.println();
 				break;
 			case 2:
-				System.out.println("Obrigada por nos contatar e seus dados estão salvos e continuaremos à disposição para auxiliá-lo.");
+				System.out.println("Obrigada por nos contatar e seus dados estÃ£o salvos e continuaremos Ã  disposiÃ§Ã£o para auxiliÃ¡-lo.");
 				System.out.println();
-				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no próximo dia o registro de suas emoções. ");
+				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no prÃ³ximo dia o registro de suas emoÃ§Ãµes. ");
 				System.out.println();
 				break;
 			default:
-				System.out.println("Dígito inválido, por favor, digite umas das opções.");
+				System.out.println("DÃ­gito invÃ¡lido, por favor, digite umas das opÃ§Ãµes.");
 		}
 }
 		System.out.println();
-		System.out.println("Agora iremos mostrar quantas vezes você sentiu as emoções descritas:");
+		System.out.println("Agora iremos mostrar quantas vezes vocÃª sentiu as emoÃ§Ãµes descritas:");
 		//System.out.println();
 			System.out.println("Feliz : " + feliz);
 			System.out.println("Triste: " + triste);
