@@ -1,6 +1,6 @@
 <h1 align="center"> Impressão de Emoções  </h1>
 <p align="center">
-  <img alt="Logo" src="#">
+  <img alt="Logo" src="https://github.com/pliniki/ImpressorDeEmocoes/blob/main/ProjetoImpressaoDeEmocoes/Amarelo.jpeg">
 </p>
 
 ## 🚀 Tecnologias
@@ -22,7 +22,7 @@ O Projeto Imprimindo Emoções foi desenvolvido como trabalho colaborativo do cu
 - Briefing do projeto / Ideia / Fluxograma <br> 
 Weslley Oliveira [Linkedin](#) <br>
 Thamires Pereira [Linkedin](#) <br>
-
+Priscila Camissao [Linkedin](#) <br>
 
 - Criação do conteúdo (textos) / Logo / Designer <br>
 Priscila Camissao [Linkedin](#) <br>
