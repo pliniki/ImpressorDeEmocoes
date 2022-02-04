@@ -8,6 +8,8 @@ public class Login extends UserData {
 	private String resposta[] = new String[2];
 	private String email[] = new String[50];
 	private float senha[] = new float[50];
+
+
 	public void login() {
 
 		for(int i = 0; i == 1; i++) {

@@ -10,6 +10,7 @@ public class Start {
 		int urgente[] = new int[3];
 		String email[] = new String[100];
 		float senha[] = new float[100];
+		String endereco[]= new String[100];
 		//Abertura
 		System.out.println("Olá, estamos aqui para apoiá-lo, seja em um momento "
 				+ "mais delicado ou para se conhecer melhor.");
@@ -30,17 +31,23 @@ public class Start {
 				UserData acesso = new UserData();
 				acesso.userdata();
 				System.exit(i);
-			} else {
-			System.out.println("Digite seu email: ");
+			} else  {
+			System.out.println("Digite seu nome: ");
 			email[i] = entrada.next();
-			System.out.println("Digite seu senha: ");
+			System.out.println("Digite seu telefone com DDD: ");
 			senha[i] = entrada.nextFloat();
-			}
-			Emocoes emotion = new Emocoes();
-			emotion.emocoes();
+			System.out.println("Digite seu endereco: ");
+			endereco[i] = entrada.next();
+			System.out.println("Obrigada! Entraremos em contato imediatamente!");
 			System.exit(i);
-		}
 
+			}//else {
+				//System.out.println("");
+			//Emocoes emotion = new Emocoes();
+		//	emotion.emocoes();
+			// System.exit(i);
+		}
+	//	}
 		//Next Class ==> Login
 	}
 }

@@ -15,8 +15,9 @@ public class UserData {
 		float telefone[] = new float[10];
 		int urgente;
 		int opSexual[] = new int[10];
-
-		//Abertura
+		//String email[] = new String[10];
+		//float senha[] = new float[10];
+				//Abertura
 		  /*Classe Start*/
 
 		//Login
@@ -24,11 +25,15 @@ public class UserData {
 
 		// Formulario
 		  /* Classe User */
-
+		
 		for (int i = 0; i < 1; i++) {
 			if (i != 1) {
 			//Caso o grau de atendimento seja emergencial
 				System.out.println("Conte um pouco mais sobre você: \n\n");
+				//System.out.println("Digite um e-mail válido:");
+				//email[i] = entrada.next();
+				//.out.println("Digite um e-mail válido:");
+				//[i] = entrada.nextFloat();
 				System.out.println("Digite o seu Nome: ");
 				nome[i] = entrada.next();
 				System.out.println("Digite sua Data de Nascimento: ");
@@ -40,14 +45,14 @@ public class UserData {
 				System.out.println("Escolha o gênero no qual se identifica: "
 						+"\n[1] - Masculino {Trans ou Cis}"
 					    +"\n[2] - Feminino {Trans ou Cis}"
-						+"\n[3] - Não- binare"
-					    +"\n[4] - Outro"
-						+"\n[5] - Prefiro não dizer");
+						+"\n[3] - Não - binare"
+					    +"\n[4] - Prefiro não dizer"
+						+"\n[5] - Outro");
 				gen[i] = entrada.nextInt();
 			}
 		}
 		for (int i = 0; i < 1; i++) {
-			if (gen[i] == 4) {System.out.println("Digite sua identidade de gênero:\n");
+			if (gen[i] == 5) {System.out.println("Digite sua identidade de gênero:\n");
 				outro[i] = entrada.next();
 			} else {
 				System.out.println( );
@@ -58,12 +63,12 @@ public class UserData {
 					+ "[1] - Homossexual {Gay ou Lésbica}\r\n"
 					+ "[2] - Bissexual\n"
 					+ "[3] - Hétero\n"
-					+ "[4] - Outro\n"
-					+ "[5] - Prefiro não dizer\n");
+					+ "[4] - Prefiro não dizer\n"
+					+ "[5] - Outro\n");
 			opSexual[i] = entrada.nextInt();
 		}
 		for (int i = 0; i < 1; i++) {
-			if (opSexual[i] == 4) {System.out.println("Caso for a opção 4, digite: \n");
+			if (opSexual[i] == 5) {System.out.println("Caso for a opção 5, digite: \n");
 				outro[i] = entrada.next();
 			} else {
 				System.out.println( );
