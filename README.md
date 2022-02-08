@@ -1,6 +1,6 @@
 <h1 align="center"> Impressão de Emoções  </h1>
 <p align="center">
-  <img alt="Logo" src="https://github.com/pliniki/ImpressorDeEmocoes/blob/main/ProjetoImpressaoDeEmocoes/Amarelo.jpeg">
+  <img alt="Logo" src="https://github.com/pliniki/ImpressorDeEmocoes/blob/main/ProjetoImpressaoDeEmocoes/logoemotion.png">
 </p>
 
 ## 🚀 Tecnologias
