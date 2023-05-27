@@ -30,17 +30,17 @@ Weslley Oliveira [Linkedin](#) <br>
 Thamires Pereira [Linkedin](#) <br>
 
 - Inicio <br>
-Paulo Carvalho [Linkedin](https://www.linkedin.com/in/paulo-carvalho/) <br>
+Paulo Carvalho 
 Wagner Carmo [Linkedin](#) <br>
 Rafael Silva [Linkedin](#) <br>
 
 - Login <br>
-Paulo Carvalho [Linkedin](https://www.linkedin.com/in/paulo-carvalho/) <br>
+Paulo Carvalho 
 Wagner Carmo [Linkedin](#) <br>
 Rafael Silva [Linkedin](#) <br>
 
 - Formulario <br>
-Paulo Carvalho [Linkedin](https://www.linkedin.com/in/paulo-carvalho/) <br>
+Paulo Carvalho
 Wagner Carmo [Linkedin](#) <br>
 Rafael Silva [Linkedin](#) <br>
 
